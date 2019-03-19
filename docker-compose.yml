@@ -1,0 +1,6 @@
+version: '3'
+services:
+  bank-accounts:
+    build: .
+    ports:
+      - 4567:4567
